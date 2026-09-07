@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+*.db
+agent_ops.db
+
+# Node / frontend
+node_modules/
+dist/
+*.tsbuildinfo
+coverage/
+
+# Editor / OS
+.vscode/
+.DS_Store
