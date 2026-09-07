@@ -22,7 +22,7 @@ version of that dashboard. Goals:
 
 ![auth and user-scoped runs](docs/diagrams/auth-run-sequence.png)
 
-*(Source: [`docs/diagrams/auth-run-sequence.excalidraw`](docs/diagrams/auth-run-sequence.excalidraw) - editable in [excalidraw](https://aka.ms/excalidraw).)*
+*(The same diagram renders inline as Mermaid in the [README](README.md#how-it-works); this PNG is a static export.)*
 
 ## Key design decisions
 
