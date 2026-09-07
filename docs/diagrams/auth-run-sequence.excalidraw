@@ -1,0 +1,558 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "parag-labs",
+  "elements": [
+    {
+      "type": "text",
+      "id": "text-1",
+      "x": 40,
+      "y": 20,
+      "width": 820,
+      "height": 65,
+      "text": "agent-ops - auth and user-scoped runs",
+      "fontSize": 26,
+      "fontFamily": 1,
+      "strokeColor": "#000000",
+      "textAlign": "left",
+      "verticalAlign": "top"
+    },
+    {
+      "type": "text",
+      "id": "text-2",
+      "x": 40,
+      "y": 62,
+      "width": 880,
+      "height": 37,
+      "text": "every data route filters on the calling user's id - isolation lives in the query",
+      "fontSize": 15,
+      "fontFamily": 1,
+      "strokeColor": "#000000",
+      "textAlign": "left",
+      "verticalAlign": "top"
+    },
+    {
+      "type": "rectangle",
+      "id": "box-3",
+      "x": 90,
+      "y": 100,
+      "width": 180,
+      "height": 56,
+      "strokeColor": "#2f9e44",
+      "backgroundColor": "#b2f2bb",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "roundness": {
+        "type": 3
+      },
+      "strokeStyle": "solid",
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "box-3-t"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "box-3-t",
+      "containerId": "box-3",
+      "x": 96,
+      "y": 106,
+      "width": 168,
+      "height": 44,
+      "text": "React UI\n(api.ts client)",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#000000",
+      "textAlign": "center",
+      "verticalAlign": "middle"
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-4",
+      "x": 180,
+      "y": 156,
+      "width": 0,
+      "height": 404,
+      "strokeColor": "#495057",
+      "strokeWidth": 1,
+      "strokeStyle": "dashed",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          404
+        ]
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": []
+    },
+    {
+      "type": "rectangle",
+      "id": "box-5",
+      "x": 400,
+      "y": 100,
+      "width": 180,
+      "height": 56,
+      "strokeColor": "#862e9c",
+      "backgroundColor": "#f3d9fa",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "roundness": {
+        "type": 3
+      },
+      "strokeStyle": "solid",
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "box-5-t"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "box-5-t",
+      "containerId": "box-5",
+      "x": 406,
+      "y": 106,
+      "width": 168,
+      "height": 44,
+      "text": "FastAPI backend\n(JWT + routes)",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#000000",
+      "textAlign": "center",
+      "verticalAlign": "middle"
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-6",
+      "x": 490,
+      "y": 156,
+      "width": 0,
+      "height": 404,
+      "strokeColor": "#495057",
+      "strokeWidth": 1,
+      "strokeStyle": "dashed",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          404
+        ]
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": []
+    },
+    {
+      "type": "rectangle",
+      "id": "box-7",
+      "x": 700,
+      "y": 100,
+      "width": 180,
+      "height": 56,
+      "strokeColor": "#1864ab",
+      "backgroundColor": "#a5d8ff",
+      "fillStyle": "hachure",
+      "strokeWidth": 2,
+      "roundness": {
+        "type": 3
+      },
+      "strokeStyle": "solid",
+      "boundElements": [
+        {
+          "type": "text",
+          "id": "box-7-t"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "box-7-t",
+      "containerId": "box-7",
+      "x": 706,
+      "y": 106,
+      "width": 168,
+      "height": 44,
+      "text": "SQLite\n(runs, users)",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#000000",
+      "textAlign": "center",
+      "verticalAlign": "middle"
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-8",
+      "x": 790,
+      "y": 156,
+      "width": 0,
+      "height": 404,
+      "strokeColor": "#495057",
+      "strokeWidth": 1,
+      "strokeStyle": "dashed",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          404
+        ]
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": []
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-9",
+      "x": 180,
+      "y": 200,
+      "width": 310,
+      "height": 0,
+      "strokeColor": "#495057",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          310,
+          0
+        ]
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": []
+    },
+    {
+      "type": "text",
+      "id": "text-10",
+      "x": 188,
+      "y": 174,
+      "width": 370,
+      "height": 32,
+      "text": "POST /register or /login",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#000000",
+      "textAlign": "left",
+      "verticalAlign": "top"
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-11",
+      "x": 490,
+      "y": 245,
+      "width": 310,
+      "height": 0,
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -310,
+          0
+        ]
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": []
+    },
+    {
+      "type": "text",
+      "id": "text-12",
+      "x": 188,
+      "y": 219,
+      "width": 370,
+      "height": 32,
+      "text": "signed JWT",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#000000",
+      "textAlign": "left",
+      "verticalAlign": "top"
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-13",
+      "x": 180,
+      "y": 300,
+      "width": 310,
+      "height": 0,
+      "strokeColor": "#495057",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          310,
+          0
+        ]
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": []
+    },
+    {
+      "type": "text",
+      "id": "text-14",
+      "x": 188,
+      "y": 274,
+      "width": 370,
+      "height": 32,
+      "text": "POST /api/runs  (Bearer JWT)",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#000000",
+      "textAlign": "left",
+      "verticalAlign": "top"
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-15",
+      "x": 490,
+      "y": 345,
+      "width": 300,
+      "height": 0,
+      "strokeColor": "#495057",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          300,
+          0
+        ]
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": []
+    },
+    {
+      "type": "text",
+      "id": "text-16",
+      "x": 498,
+      "y": 319,
+      "width": 360,
+      "height": 32,
+      "text": "INSERT run WHERE user_id = me",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#000000",
+      "textAlign": "left",
+      "verticalAlign": "top"
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-17",
+      "x": 180,
+      "y": 405,
+      "width": 310,
+      "height": 0,
+      "strokeColor": "#495057",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          310,
+          0
+        ]
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": []
+    },
+    {
+      "type": "text",
+      "id": "text-18",
+      "x": 188,
+      "y": 379,
+      "width": 370,
+      "height": 32,
+      "text": "GET /api/stats  (Bearer JWT)",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#000000",
+      "textAlign": "left",
+      "verticalAlign": "top"
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-19",
+      "x": 490,
+      "y": 450,
+      "width": 300,
+      "height": 0,
+      "strokeColor": "#495057",
+      "strokeWidth": 2,
+      "strokeStyle": "solid",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          300,
+          0
+        ]
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": []
+    },
+    {
+      "type": "text",
+      "id": "text-20",
+      "x": 498,
+      "y": 424,
+      "width": 360,
+      "height": 32,
+      "text": "SELECT ... WHERE user_id = me",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#000000",
+      "textAlign": "left",
+      "verticalAlign": "top"
+    },
+    {
+      "type": "arrow",
+      "id": "arrow-21",
+      "x": 490,
+      "y": 500,
+      "width": 310,
+      "height": 0,
+      "strokeColor": "#2f9e44",
+      "strokeWidth": 2,
+      "strokeStyle": "dashed",
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          -310,
+          0
+        ]
+      ],
+      "roundness": {
+        "type": 2
+      },
+      "boundElements": []
+    },
+    {
+      "type": "text",
+      "id": "text-22",
+      "x": 188,
+      "y": 474,
+      "width": 370,
+      "height": 32,
+      "text": "totals + failure count",
+      "fontSize": 13,
+      "fontFamily": 1,
+      "strokeColor": "#000000",
+      "textAlign": "left",
+      "verticalAlign": "top"
+    },
+    {
+      "type": "rectangle",
+      "id": "isolation-23",
+      "x": 40,
+      "y": 585,
+      "width": 900,
+      "height": 100,
+      "strokeColor": "#c92a2a",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 2,
+      "roundness": {
+        "type": 3
+      },
+      "strokeStyle": "solid",
+      "boundElements": []
+    },
+    {
+      "type": "text",
+      "id": "text-24",
+      "x": 54,
+      "y": 596,
+      "width": 870,
+      "height": 35,
+      "text": "Per-user isolation is enforced in the query, not layered on in the UI: there is no",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#000000",
+      "textAlign": "left",
+      "verticalAlign": "top"
+    },
+    {
+      "type": "text",
+      "id": "text-25",
+      "x": 54,
+      "y": 628,
+      "width": 870,
+      "height": 35,
+      "text": "endpoint that can return another user's runs. The load test asserts this holds even",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#000000",
+      "textAlign": "left",
+      "verticalAlign": "top"
+    },
+    {
+      "type": "text",
+      "id": "text-26",
+      "x": 54,
+      "y": 660,
+      "width": 870,
+      "height": 35,
+      "text": "when two users' requests are interleaved rapidly.",
+      "fontSize": 14,
+      "fontFamily": 1,
+      "strokeColor": "#000000",
+      "textAlign": "left",
+      "verticalAlign": "top"
+    }
+  ],
+  "appState": {
+    "viewBackgroundColor": "#ffffff",
+    "gridSize": null
+  },
+  "files": {}
+}
