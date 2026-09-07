@@ -84,17 +84,17 @@ every pull request.
 ```mermaid
 sequenceDiagram
   autonumber
-  participant UI as React UI (api.ts)
-  participant API as FastAPI backend (JWT + routes)
-  participant DB as SQLite (runs, users)
-  UI->>API: POST /register or /login
-  API-->>UI: signed JWT
-  UI->>API: POST /api/runs (Bearer JWT)
-  API->>DB: INSERT run WHERE user_id = me
-  UI->>API: GET /api/stats (Bearer JWT)
-  API->>DB: SELECT ... WHERE user_id = me
-  API-->>UI: totals + failure count
-  Note over API,DB: per-user isolation is enforced in the query,<br/>not layered on in the UI
+  participant UI as React UI
+  participant API as FastAPI
+  participant DB as SQLite
+  UI->>API: login
+  API-->>UI: JWT
+  UI->>API: record run
+  API->>DB: insert (scoped to user)
+  UI->>API: get stats
+  API->>DB: select (scoped to user)
+  API-->>UI: totals + failures
+  Note over API,DB: isolation enforced in the query
 ```
 
 ## Layout
