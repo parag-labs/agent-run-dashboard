@@ -18,7 +18,7 @@ async def lifespan(_app: FastAPI) -> AsyncIterator[None]:
     yield
 
 
-app = FastAPI(title="agent-ops", version="0.1.0", lifespan=lifespan)
+app = FastAPI(title="agent-run-dashboard", version="0.1.0", lifespan=lifespan)
 
 # The React dev server and the built static app call this API from the browser.
 app.add_middleware(

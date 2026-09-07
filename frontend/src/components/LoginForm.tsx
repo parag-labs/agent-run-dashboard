@@ -26,7 +26,7 @@ export function LoginForm({ onAuthed }: Props) {
 
   return (
     <form className="auth" onSubmit={submit} data-testid="login-form">
-      <h1>agent-ops</h1>
+      <h1>agent-run-dashboard</h1>
       <p className="muted">Record agent runs and watch cost, tokens, and failures.</p>
       <input
         placeholder="username"

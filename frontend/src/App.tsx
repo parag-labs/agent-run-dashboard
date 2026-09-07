@@ -6,7 +6,7 @@ import { StatsBar } from "./components/StatsBar.js";
 import { RunForm } from "./components/RunForm.js";
 import { RunTable } from "./components/RunTable.js";
 
-const TOKEN_KEY = "agent-ops-token";
+const TOKEN_KEY = "agent-run-dashboard-token";
 
 export function App() {
   const [token, setToken] = useState<string | null>(() => localStorage.getItem(TOKEN_KEY));
@@ -59,7 +59,7 @@ export function App() {
   return (
     <div className="shell">
       <header>
-        <h1>agent-ops</h1>
+        <h1>agent-run-dashboard</h1>
         <button className="link" onClick={logout}>
           log out
         </button>
