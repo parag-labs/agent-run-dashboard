@@ -107,7 +107,6 @@ agent-run-dashboard/
 ├── frontend/       React app: login, the stats header, and the run table (Vite)
 │   ├── src/        components + API client
 │   └── tests/      frontend tests
-├── docs/diagrams/  the architecture diagram
 └── DESIGN.md       the data model, the auth choice, and the non-goals
 ```
 
