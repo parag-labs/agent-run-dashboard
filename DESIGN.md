@@ -24,6 +24,13 @@ version of that dashboard. Goals:
 
 *(The [README](README.md#how-it-works) shows this flow inline as Mermaid; this annotated version adds the `current_user` gate, its four 401 branches, and the delete's 404-not-403 ownership check.)*
 
+<details>
+<summary>Before the redraw - the earlier version of this diagram</summary>
+
+![auth and user-scoped runs, before the redraw](docs/diagrams/auth-run-sequence-v1.png)
+
+</details>
+
 ## Key design decisions
 
 **Token auth, and every data route is user-scoped.** Register or log in, get a signed
