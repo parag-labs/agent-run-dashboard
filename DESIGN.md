@@ -22,7 +22,7 @@ version of that dashboard. Goals:
 
 ![auth and user-scoped runs](docs/diagrams/auth-run-sequence.png)
 
-*(The same diagram renders inline as Mermaid in the [README](README.md#how-it-works); this PNG is a static export.)*
+*(The [README](README.md#how-it-works) shows this flow inline as Mermaid; this annotated version adds the `current_user` gate, its four 401 branches, and the delete's 404-not-403 ownership check.)*
 
 ## Key design decisions
 
