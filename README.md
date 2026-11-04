@@ -27,7 +27,7 @@ authentication, and a UI wired together.
 - Aggregate stats - totals for runs, tokens, and cost, plus breakdowns by status and
   by model, computed per user.
 
-**Frontend** (`frontend/`, React + Vite + TypeScript):
+**Frontend** (`frontend/`, React 19 + Vite 8 + TypeScript 6):
 
 - A login / register screen, a stat bar, a form to record a run, and a table with
   status pills and delete buttons.
