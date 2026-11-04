@@ -36,6 +36,9 @@ authentication, and a UI wired together.
 
 ## Running it
 
+Requires **Python 3.14** (pinned in `backend/.python-version`) and **Node.js 26 LTS**
+or newer (pinned in `frontend/.nvmrc`). CI uses the same versions.
+
 Backend:
 
 ```
